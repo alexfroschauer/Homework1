@@ -29,4 +29,3 @@ def isPrime(number):
     else:
         return False
 
-
