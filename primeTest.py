@@ -10,7 +10,7 @@ def isNatural(number):
     # isNatural() checks if a chosen number is a natural number.
     # Returns TRUE or FALSE.
     # True means its an Integer and has a positive value.
-    if isInt == True:
+    if isInt(number) == True:
         if number > 0:
             return True
         else:
