@@ -1,7 +1,7 @@
 def isInt(number):
     # isInt() checks if a chosen number is an Integer via checking for decimal places.
     # Returns TRUE or FALSE
-    if (number * 10) % 10 == 0:
+    if (number * 10) % 10 == 10:
         return True
     else:
         return False
