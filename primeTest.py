@@ -6,6 +6,7 @@ def isInt(number):
     else:
         return False
 
+
 def isNatural(number):
     # isNatural() checks if a chosen number is a natural number.
     # Returns TRUE or FALSE.
@@ -18,11 +19,12 @@ def isNatural(number):
     else:
         return False
 
+
 def isPrime(number):
     # isPrime() finally checks if a chosen number is a prime number Return
     # TRUE or FALSE
     # Returns true when the number can only be devided by 1 and itself.
-    if isNatural(number) == True: 
+    if isNatural(number) == True:
         if number == 2:
             return True
         i = 2
@@ -36,4 +38,3 @@ def isPrime(number):
         return True
     else:
         return False
-
